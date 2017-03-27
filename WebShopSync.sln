@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebJobs", "WebJobs", "{840B5493-DCC0-4F4A-8085-D733F3EA89F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeldoSynchWebJob", "DeldoSynchWebJob\DeldoSynchWebJob.csproj", "{2074B839-1252-4B46-9A0C-BCEDCB0BF781}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonSyncWebJob", "AmazonSyncWebJob\AmazonSyncWebJob.csproj", "{90D74403-A4F1-4C73-881C-543BC46EE4F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{0B3ADF77-C1F2-48D5-ADC2-6B96653DAB5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketplaceWebService", "MarketplaceWebService\MarketplaceWebService.csproj", "{8291C4FA-4529-4130-9347-A27EF33C150C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrestashopSyncWebJob", "PrestashopSyncWebJob\PrestashopSyncWebJob.csproj", "{9F92155D-FDC4-46A0-AA00-93E5B8D8EBDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KijijiSynchWebJob", "KijijiSynchWebJob\KijijiSynchWebJob.csproj", "{FFAD1910-CC95-4677-AE7E-FDF83BDBAF60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrestaSharp", "..\PrestaSharp\PrestaSharp.csproj", "{7E4D8845-2BFE-4990-BFD6-694595228B59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2074B839-1252-4B46-9A0C-BCEDCB0BF781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2074B839-1252-4B46-9A0C-BCEDCB0BF781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2074B839-1252-4B46-9A0C-BCEDCB0BF781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2074B839-1252-4B46-9A0C-BCEDCB0BF781}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D74403-A4F1-4C73-881C-543BC46EE4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D74403-A4F1-4C73-881C-543BC46EE4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D74403-A4F1-4C73-881C-543BC46EE4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D74403-A4F1-4C73-881C-543BC46EE4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8291C4FA-4529-4130-9347-A27EF33C150C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8291C4FA-4529-4130-9347-A27EF33C150C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8291C4FA-4529-4130-9347-A27EF33C150C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8291C4FA-4529-4130-9347-A27EF33C150C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F92155D-FDC4-46A0-AA00-93E5B8D8EBDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F92155D-FDC4-46A0-AA00-93E5B8D8EBDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F92155D-FDC4-46A0-AA00-93E5B8D8EBDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F92155D-FDC4-46A0-AA00-93E5B8D8EBDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFAD1910-CC95-4677-AE7E-FDF83BDBAF60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAD1910-CC95-4677-AE7E-FDF83BDBAF60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAD1910-CC95-4677-AE7E-FDF83BDBAF60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAD1910-CC95-4677-AE7E-FDF83BDBAF60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E4D8845-2BFE-4990-BFD6-694595228B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E4D8845-2BFE-4990-BFD6-694595228B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E4D8845-2BFE-4990-BFD6-694595228B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E4D8845-2BFE-4990-BFD6-694595228B59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2074B839-1252-4B46-9A0C-BCEDCB0BF781} = {840B5493-DCC0-4F4A-8085-D733F3EA89F6}
+		{90D74403-A4F1-4C73-881C-543BC46EE4F3} = {840B5493-DCC0-4F4A-8085-D733F3EA89F6}
+		{8291C4FA-4529-4130-9347-A27EF33C150C} = {0B3ADF77-C1F2-48D5-ADC2-6B96653DAB5E}
+		{9F92155D-FDC4-46A0-AA00-93E5B8D8EBDE} = {840B5493-DCC0-4F4A-8085-D733F3EA89F6}
+		{FFAD1910-CC95-4677-AE7E-FDF83BDBAF60} = {840B5493-DCC0-4F4A-8085-D733F3EA89F6}
+	EndGlobalSection
+EndGlobal
