@@ -501,7 +501,6 @@ namespace PrestashopSyncWebJob
                                 prod.associations.categories.Add(new Bukimedia.PrestaSharp.Entities.AuxEntities.category() { id = 51 });
                             }
 
-                            SetCaratteristicheCustom(disp, prod);
 
                             var linkRewrite = string.Format("{4} {0} {1}-{2}R{3}", disp.refPneumatico.refBrand.Nome, disp.refPneumatico.refLarghezza.Valore, disp.refPneumatico.refAltezza.Valore,
                                 disp.refPneumatico.refDiametro.Valore, gommeUsate);
@@ -860,7 +859,7 @@ namespace PrestashopSyncWebJob
                 EliminaProdottiInesistenti();
                 SyncProdottiGestionale();
 
-                CheckOrdini();
+                //CheckOrdini();
             }
             catch (Exception ex)
             {
