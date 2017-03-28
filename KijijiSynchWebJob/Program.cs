@@ -127,7 +127,12 @@ namespace KijijiSynchWebJob {
                             if (disp.refPneumatico.refBrand != null)
                                 Descrizione += $"Marca: {disp.refPneumatico.refBrand.Nome}<br />";
 
-                            Descrizione += $"Modello: {disp.refPneumatico.Descrizione}<br />";
+                            Descrizione += $"Modello: {disp.refPneumatico.Modello}<br />";
+
+                            Descrizione += $"Condizione: {(disp.refPneumatico.Usato ? "Usato" : "Nuovo")}<br />";
+
+                            if(disp.refPneumatico.Usato)
+                                Descrizione += $"Batt. residuo: {disp.refPneumatico.PercResidua.Value}<br />";
 
                             if (disp.refPneumatico.refStagione != null)
                                 Descrizione += $"Stagione: {disp.refPneumatico.refStagione.Valore}<br />";
