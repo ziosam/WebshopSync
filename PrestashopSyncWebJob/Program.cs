@@ -453,6 +453,8 @@ namespace PrestashopSyncWebJob
                                 prod = new product();
                             }
 
+                            prod.reference = disp.FK_ProdottoPneumatici.ToString();
+
                             string gommeUsate;
                             //string metaDescription;
                             string descrizione;
